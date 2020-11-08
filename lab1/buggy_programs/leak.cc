@@ -1,9 +1,10 @@
 #include <iostream>
 using std::cout;
 
-struct Foo{
-    Foo(int s) :p{new int[s]} {}
-    int* p;
+struct Foo
+{
+    Foo(int s) : p{new int[s]} {}
+    int *p;
 };
 
 void example1()

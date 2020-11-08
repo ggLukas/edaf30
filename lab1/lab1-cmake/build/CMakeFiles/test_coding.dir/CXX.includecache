@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libs/coding.h
+iostream
+-
+
+/home/ungothar/edaf30/lab1/lab1-cmake/test_coding.cc
+iostream
+-
+coding.h
+/home/ungothar/edaf30/lab1/lab1-cmake/coding.h
+string
+-
+cassert
+-
+

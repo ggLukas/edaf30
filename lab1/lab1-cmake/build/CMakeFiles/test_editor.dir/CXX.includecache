@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libs/editor.h
+string
+-
+
+/home/ungothar/edaf30/lab1/lab1-cmake/test_editor.cc
+editor.h
+/home/ungothar/edaf30/lab1/lab1-cmake/editor.h
+iostream
+-
+
