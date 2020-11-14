@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/test_editor.dir/test_editor.cc.o  -o test_editor  libs/liblab1.a 

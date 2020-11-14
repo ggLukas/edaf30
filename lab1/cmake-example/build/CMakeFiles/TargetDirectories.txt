@@ -1,6 +1,0 @@
-/home/ungothar/edaf30/lab1/cmake-example/build/CMakeFiles/rebuild_cache.dir
-/home/ungothar/edaf30/lab1/cmake-example/build/CMakeFiles/edit_cache.dir
-/home/ungothar/edaf30/lab1/cmake-example/build/CMakeFiles/SimpleMain.dir
-/home/ungothar/edaf30/lab1/cmake-example/build/testlib/CMakeFiles/rebuild_cache.dir
-/home/ungothar/edaf30/lab1/cmake-example/build/testlib/CMakeFiles/edit_cache.dir
-/home/ungothar/edaf30/lab1/cmake-example/build/testlib/CMakeFiles/TestLib.dir

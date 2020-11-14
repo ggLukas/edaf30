@@ -1,2 +1,0 @@
-/usr/bin/ar qc libliblab1.a  CMakeFiles/liblab1.dir/editor.cc.o CMakeFiles/liblab1.dir/coding.cc.o
-/usr/bin/ranlib libliblab1.a
