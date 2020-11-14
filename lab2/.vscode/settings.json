@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.dae": "xml",
+        "iosfwd": "cpp"
+    }
+}

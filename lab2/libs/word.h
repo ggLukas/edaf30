@@ -7,7 +7,7 @@
 class Word {
 public:
 	/* Creates a word w with the sorted trigrams t */
-	Word(const std::string& w, const std::vector<std::string>& t);
+	Word(const std::string& w, const std::vector<std::string>& t) : word{w}, trigrams{t} {};
 	
 	/* Returns the word */
 	std::string get_word() const;
@@ -16,6 +16,8 @@ public:
 	 in this word's trigram vector */
 	unsigned int get_matches(const std::vector<std::string>& t) const;
 private:
+	std::string word;
+	std::vector<std::string> trigrams;
 };
 
 #endif
