@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ungothar/edaf30/lab1/lab1-cmake/encode.cc" "/home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles/encode.dir/encode.cc.o"
+  "/home/nilsiker/edaf30/lab1/lab1-cmake/encode.cc" "/home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles/encode.dir/encode.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ungothar/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/lab1.dir/DependInfo.cmake"
+  "/home/nilsiker/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/lab1.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

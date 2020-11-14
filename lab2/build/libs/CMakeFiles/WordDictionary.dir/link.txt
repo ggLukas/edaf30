@@ -1,0 +1,2 @@
+/usr/bin/ar qc libWordDictionary.a  CMakeFiles/WordDictionary.dir/dictionary.cc.o CMakeFiles/WordDictionary.dir/word.cc.o
+/usr/bin/ranlib libWordDictionary.a

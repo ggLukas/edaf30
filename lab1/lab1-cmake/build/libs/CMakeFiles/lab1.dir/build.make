@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ungothar/edaf30/lab1/lab1-cmake
+CMAKE_SOURCE_DIR = /home/nilsiker/edaf30/lab1/lab1-cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ungothar/edaf30/lab1/lab1-cmake/build
+CMAKE_BINARY_DIR = /home/nilsiker/edaf30/lab1/lab1-cmake/build
 
 # Include any dependencies generated for this target.
 include libs/CMakeFiles/lab1.dir/depend.make
@@ -59,29 +59,29 @@ include libs/CMakeFiles/lab1.dir/flags.make
 
 libs/CMakeFiles/lab1.dir/editor.cc.o: libs/CMakeFiles/lab1.dir/flags.make
 libs/CMakeFiles/lab1.dir/editor.cc.o: ../libs/editor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/CMakeFiles/lab1.dir/editor.cc.o"
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build/libs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/editor.cc.o -c /home/ungothar/edaf30/lab1/lab1-cmake/libs/editor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/CMakeFiles/lab1.dir/editor.cc.o"
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build/libs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/editor.cc.o -c /home/nilsiker/edaf30/lab1/lab1-cmake/libs/editor.cc
 
 libs/CMakeFiles/lab1.dir/editor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/editor.cc.i"
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build/libs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ungothar/edaf30/lab1/lab1-cmake/libs/editor.cc > CMakeFiles/lab1.dir/editor.cc.i
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build/libs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nilsiker/edaf30/lab1/lab1-cmake/libs/editor.cc > CMakeFiles/lab1.dir/editor.cc.i
 
 libs/CMakeFiles/lab1.dir/editor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/editor.cc.s"
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build/libs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ungothar/edaf30/lab1/lab1-cmake/libs/editor.cc -o CMakeFiles/lab1.dir/editor.cc.s
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build/libs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nilsiker/edaf30/lab1/lab1-cmake/libs/editor.cc -o CMakeFiles/lab1.dir/editor.cc.s
 
 libs/CMakeFiles/lab1.dir/coding.cc.o: libs/CMakeFiles/lab1.dir/flags.make
 libs/CMakeFiles/lab1.dir/coding.cc.o: ../libs/coding.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/CMakeFiles/lab1.dir/coding.cc.o"
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build/libs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/coding.cc.o -c /home/ungothar/edaf30/lab1/lab1-cmake/libs/coding.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/CMakeFiles/lab1.dir/coding.cc.o"
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build/libs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/coding.cc.o -c /home/nilsiker/edaf30/lab1/lab1-cmake/libs/coding.cc
 
 libs/CMakeFiles/lab1.dir/coding.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/coding.cc.i"
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build/libs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ungothar/edaf30/lab1/lab1-cmake/libs/coding.cc > CMakeFiles/lab1.dir/coding.cc.i
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build/libs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nilsiker/edaf30/lab1/lab1-cmake/libs/coding.cc > CMakeFiles/lab1.dir/coding.cc.i
 
 libs/CMakeFiles/lab1.dir/coding.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/coding.cc.s"
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build/libs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ungothar/edaf30/lab1/lab1-cmake/libs/coding.cc -o CMakeFiles/lab1.dir/coding.cc.s
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build/libs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nilsiker/edaf30/lab1/lab1-cmake/libs/coding.cc -o CMakeFiles/lab1.dir/coding.cc.s
 
 # Object files for target lab1
 lab1_OBJECTS = \
@@ -95,9 +95,9 @@ libs/liblab1.a: libs/CMakeFiles/lab1.dir/editor.cc.o
 libs/liblab1.a: libs/CMakeFiles/lab1.dir/coding.cc.o
 libs/liblab1.a: libs/CMakeFiles/lab1.dir/build.make
 libs/liblab1.a: libs/CMakeFiles/lab1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library liblab1.a"
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build/libs && $(CMAKE_COMMAND) -P CMakeFiles/lab1.dir/cmake_clean_target.cmake
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build/libs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab1.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library liblab1.a"
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build/libs && $(CMAKE_COMMAND) -P CMakeFiles/lab1.dir/cmake_clean_target.cmake
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build/libs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libs/CMakeFiles/lab1.dir/build: libs/liblab1.a
@@ -105,10 +105,10 @@ libs/CMakeFiles/lab1.dir/build: libs/liblab1.a
 .PHONY : libs/CMakeFiles/lab1.dir/build
 
 libs/CMakeFiles/lab1.dir/clean:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build/libs && $(CMAKE_COMMAND) -P CMakeFiles/lab1.dir/cmake_clean.cmake
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build/libs && $(CMAKE_COMMAND) -P CMakeFiles/lab1.dir/cmake_clean.cmake
 .PHONY : libs/CMakeFiles/lab1.dir/clean
 
 libs/CMakeFiles/lab1.dir/depend:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ungothar/edaf30/lab1/lab1-cmake /home/ungothar/edaf30/lab1/lab1-cmake/libs /home/ungothar/edaf30/lab1/lab1-cmake/build /home/ungothar/edaf30/lab1/lab1-cmake/build/libs /home/ungothar/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/lab1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nilsiker/edaf30/lab1/lab1-cmake /home/nilsiker/edaf30/lab1/lab1-cmake/libs /home/nilsiker/edaf30/lab1/lab1-cmake/build /home/nilsiker/edaf30/lab1/lab1-cmake/build/libs /home/nilsiker/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/lab1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/CMakeFiles/lab1.dir/depend
 

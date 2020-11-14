@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ungothar/edaf30/lab1/lab1-cmake
+CMAKE_SOURCE_DIR = /home/nilsiker/edaf30/lab1/lab1-cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ungothar/edaf30/lab1/lab1-cmake/build
+CMAKE_BINARY_DIR = /home/nilsiker/edaf30/lab1/lab1-cmake/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -98,14 +98,14 @@ libs/clean: libs/CMakeFiles/lab1.dir/clean
 CMakeFiles/test_editor.dir/all: libs/CMakeFiles/lab1.dir/all
 	$(MAKE) -f CMakeFiles/test_editor.dir/build.make CMakeFiles/test_editor.dir/depend
 	$(MAKE) -f CMakeFiles/test_editor.dir/build.make CMakeFiles/test_editor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=8,9 "Built target test_editor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=8,9 "Built target test_editor"
 .PHONY : CMakeFiles/test_editor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_editor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_editor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_editor.dir/rule
 
 # Convenience name for target.
@@ -125,14 +125,14 @@ CMakeFiles/test_editor.dir/clean:
 CMakeFiles/test_coding.dir/all: libs/CMakeFiles/lab1.dir/all
 	$(MAKE) -f CMakeFiles/test_coding.dir/build.make CMakeFiles/test_coding.dir/depend
 	$(MAKE) -f CMakeFiles/test_coding.dir/build.make CMakeFiles/test_coding.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=6,7 "Built target test_coding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=6,7 "Built target test_coding"
 .PHONY : CMakeFiles/test_coding.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_coding.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_coding.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_coding.dir/rule
 
 # Convenience name for target.
@@ -152,14 +152,14 @@ CMakeFiles/test_coding.dir/clean:
 CMakeFiles/encode.dir/all: libs/CMakeFiles/lab1.dir/all
 	$(MAKE) -f CMakeFiles/encode.dir/build.make CMakeFiles/encode.dir/depend
 	$(MAKE) -f CMakeFiles/encode.dir/build.make CMakeFiles/encode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=1,2 "Built target encode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=1,2 "Built target encode"
 .PHONY : CMakeFiles/encode.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/encode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/encode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles 0
 .PHONY : CMakeFiles/encode.dir/rule
 
 # Convenience name for target.
@@ -179,14 +179,14 @@ CMakeFiles/encode.dir/clean:
 libs/CMakeFiles/lab1.dir/all:
 	$(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/depend
 	$(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=3,4,5 "Built target lab1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles --progress-num=3,4,5 "Built target lab1"
 .PHONY : libs/CMakeFiles/lab1.dir/all
 
 # Build rule for subdir invocation for target.
 libs/CMakeFiles/lab1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 libs/CMakeFiles/lab1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles 0
 .PHONY : libs/CMakeFiles/lab1.dir/rule
 
 # Convenience name for target.

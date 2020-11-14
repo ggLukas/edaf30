@@ -1,4 +1,4 @@
-# Install script for directory: /home/ungothar/edaf30/lab1/lab1-cmake/libs
+# Install script for directory: /home/nilsiker/edaf30/lab1/lab1-cmake/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ungothar/edaf30/lab1/lab1-cmake/build -I/home/ungothar/edaf30/lab1/lab1-cmake/libs 
+CXX_INCLUDES = -I/home/nilsiker/edaf30/lab1/lab1-cmake/build -I/home/nilsiker/edaf30/lab1/lab1-cmake/libs 
 

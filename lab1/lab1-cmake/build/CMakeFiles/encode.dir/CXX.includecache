@@ -6,3 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/nilsiker/edaf30/lab1/lab1-cmake/encode.cc
+libs/coding.h
+/home/nilsiker/edaf30/lab1/lab1-cmake/libs/coding.h
+config.h
+/home/nilsiker/edaf30/lab1/lab1-cmake/config.h
+iostream
+-
+fstream
+-
+
+/home/nilsiker/edaf30/lab1/lab1-cmake/libs/coding.h
+iostream
+-
+
+config.h
+

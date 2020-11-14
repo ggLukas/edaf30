@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ungothar/edaf30/lab1/lab1-cmake/libs/coding.cc" "/home/ungothar/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/lab1.dir/coding.cc.o"
-  "/home/ungothar/edaf30/lab1/lab1-cmake/libs/editor.cc" "/home/ungothar/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/lab1.dir/editor.cc.o"
+  "/home/nilsiker/edaf30/lab1/lab1-cmake/libs/coding.cc" "/home/nilsiker/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/lab1.dir/coding.cc.o"
+  "/home/nilsiker/edaf30/lab1/lab1-cmake/libs/editor.cc" "/home/nilsiker/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/lab1.dir/editor.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

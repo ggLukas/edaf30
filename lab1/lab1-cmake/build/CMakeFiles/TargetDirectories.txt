@@ -1,8 +1,8 @@
-/home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles/test_editor.dir
-/home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles/rebuild_cache.dir
-/home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles/test_coding.dir
-/home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles/edit_cache.dir
-/home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles/encode.dir
-/home/ungothar/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/rebuild_cache.dir
-/home/ungothar/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/edit_cache.dir
-/home/ungothar/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/lab1.dir
+/home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles/test_editor.dir
+/home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles/rebuild_cache.dir
+/home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles/test_coding.dir
+/home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles/edit_cache.dir
+/home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles/encode.dir
+/home/nilsiker/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/rebuild_cache.dir
+/home/nilsiker/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/edit_cache.dir
+/home/nilsiker/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/lab1.dir

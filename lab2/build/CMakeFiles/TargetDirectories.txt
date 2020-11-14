@@ -1,0 +1,6 @@
+/home/nilsiker/edaf30/lab2/build/CMakeFiles/rebuild_cache.dir
+/home/nilsiker/edaf30/lab2/build/CMakeFiles/edit_cache.dir
+/home/nilsiker/edaf30/lab2/build/CMakeFiles/Spell.dir
+/home/nilsiker/edaf30/lab2/build/libs/CMakeFiles/rebuild_cache.dir
+/home/nilsiker/edaf30/lab2/build/libs/CMakeFiles/edit_cache.dir
+/home/nilsiker/edaf30/lab2/build/libs/CMakeFiles/WordDictionary.dir

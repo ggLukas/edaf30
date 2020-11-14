@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ungothar/edaf30/lab1/lab1-cmake
+CMAKE_SOURCE_DIR = /home/nilsiker/edaf30/lab1/lab1-cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ungothar/edaf30/lab1/lab1-cmake/build
+CMAKE_BINARY_DIR = /home/nilsiker/edaf30/lab1/lab1-cmake/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles /home/ungothar/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/progress.marks
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ungothar/edaf30/lab1/lab1-cmake/build/CMakeFiles 0
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles /home/nilsiker/edaf30/lab1/lab1-cmake/build/libs/CMakeFiles/progress.marks
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nilsiker/edaf30/lab1/lab1-cmake/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/clean
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/preinstall
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/preinstall
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libs/CMakeFiles/lab1.dir/rule:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/CMakeFiles/lab1.dir/rule
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/CMakeFiles/lab1.dir/rule
 .PHONY : libs/CMakeFiles/lab1.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ lab1: libs/CMakeFiles/lab1.dir/rule
 
 # fast build rule for target.
 lab1/fast:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/build
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/build
 .PHONY : lab1/fast
 
 coding.o: coding.cc.o
@@ -131,7 +131,7 @@ coding.o: coding.cc.o
 
 # target to build an object file
 coding.cc.o:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/coding.cc.o
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/coding.cc.o
 .PHONY : coding.cc.o
 
 coding.i: coding.cc.i
@@ -140,7 +140,7 @@ coding.i: coding.cc.i
 
 # target to preprocess a source file
 coding.cc.i:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/coding.cc.i
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/coding.cc.i
 .PHONY : coding.cc.i
 
 coding.s: coding.cc.s
@@ -149,7 +149,7 @@ coding.s: coding.cc.s
 
 # target to generate assembly for a file
 coding.cc.s:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/coding.cc.s
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/coding.cc.s
 .PHONY : coding.cc.s
 
 editor.o: editor.cc.o
@@ -158,7 +158,7 @@ editor.o: editor.cc.o
 
 # target to build an object file
 editor.cc.o:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/editor.cc.o
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/editor.cc.o
 .PHONY : editor.cc.o
 
 editor.i: editor.cc.i
@@ -167,7 +167,7 @@ editor.i: editor.cc.i
 
 # target to preprocess a source file
 editor.cc.i:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/editor.cc.i
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/editor.cc.i
 .PHONY : editor.cc.i
 
 editor.s: editor.cc.s
@@ -176,7 +176,7 @@ editor.s: editor.cc.s
 
 # target to generate assembly for a file
 editor.cc.s:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/editor.cc.s
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(MAKE) -f libs/CMakeFiles/lab1.dir/build.make libs/CMakeFiles/lab1.dir/editor.cc.s
 .PHONY : editor.cc.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ungothar/edaf30/lab1/lab1-cmake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nilsiker/edaf30/lab1/lab1-cmake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
