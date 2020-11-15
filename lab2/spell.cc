@@ -27,6 +27,7 @@ void check_word(const string& word, const Dictionary& dict)
         }
     }
 }
+
 int main() {
 	Dictionary dict;
 	string word;

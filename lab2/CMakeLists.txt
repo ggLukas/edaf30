@@ -16,4 +16,5 @@ add_subdirectory (libs)
 # add the executable
  add_executable(Spell spell.cc)
  add_executable(DictProcessor dictprocessor.cc)
-target_link_libraries (Spell WordDictionary)
+target_link_libraries (Spell WordDictionary Helpers)
+target_link_libraries (DictProcessor Helpers)
