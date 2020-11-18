@@ -14,50 +14,36 @@ using std::vector;
 
 Dictionary::Dictionary()
 {
-	std::ifstream in{"words.txt"};
-	string line;
-	while (std::getline(in, line))
-	{
-		word_set.insert(line.substr(0, line.find(' ')));
+	std::ifstream in("words.txt");
+	if (!in){
+		throw std::runtime_error("could not open file");
 	}
-
-	in.clear();
-	in.seekg(0);
-
-	while (std::getline(in, line))
+	while (in)
 	{
-		transform(line.begin(), line.end(), line.begin(), ::tolower);
-		string delimiter = " ";
-
-		size_t pos = 0;
-
-		// Find word
-		pos = line.find(delimiter);
-		string word = line.substr(0, pos);
-		line.erase(0, pos + delimiter.length());
-
-		// Get amount of trigrams
-		pos = line.find(delimiter);
-		int nbr_of_trigrams = std::stoi(line.substr(0, pos));
-		line.erase(0, pos + delimiter.length());
-
-		vector<string> trigrams;
-		// Add all trigrams
-		for (size_t i = 0; i < nbr_of_trigrams; i++)
+		string word;
+		in >> word;
+		int nbr_of_tris;
+		in >> nbr_of_tris;
+		vector<std::string> tgs;
+		for (int i = 0; i < nbr_of_tris; ++i)
 		{
-			pos = line.find(delimiter);
-			string trigram = line.substr(0, pos);
-			line.erase(0, pos + delimiter.length());
-			trigrams.push_back(trigram);
+			string tri;
+			in >> tri;
+			tgs.push_back(tri);
 		}
-
-		words[word.length()].push_back(Word{word, trigrams});
+		if (word.size() < MAX_LENGTH){
+			word_set.insert(word);
+			words[word.size()].push_back(Word(word,tgs));
+		}
 	}
+	in.close();
+
+	
 }
 
 bool Dictionary::contains(const string &word) const
 {
-	return word_set.find(word) != word_set.end();
+	return word_set.count(word) >0;
 }
 
 void Dictionary::add_trigram_suggestions(vector<string> &suggestions, const string &word) const
