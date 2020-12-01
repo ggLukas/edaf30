@@ -128,7 +128,7 @@ void UserTable::print(std::ostream &os) const
     * Om något kortnummer inte kunde sökas upp returneras detta. Annars, om
     * alla sökningar lyckades, returneras 0.
     */
-int testFindNbr(const UserTable &ut)
+int testFindNbr(const UserTable ut)
 {
     for (int i = 0; i < ut.n; i++)
     {
