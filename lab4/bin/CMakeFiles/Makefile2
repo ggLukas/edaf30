@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/nilsiker/edaf30/lab4/bin
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/sieve.dir/all
 all: CMakeFiles/tag_remover.dir/all
 all: CMakeFiles/date_test.dir/all
 all: libs/all
@@ -65,6 +66,7 @@ preinstall: libs/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/sieve.dir/clean
 clean: CMakeFiles/tag_remover.dir/clean
 clean: CMakeFiles/date_test.dir/clean
 clean: libs/clean
@@ -90,13 +92,40 @@ libs/clean: libs/CMakeFiles/DateLib.dir/clean
 .PHONY : libs/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/sieve.dir
+
+# All Build rule for target.
+CMakeFiles/sieve.dir/all:
+	$(MAKE) -f CMakeFiles/sieve.dir/build.make CMakeFiles/sieve.dir/depend
+	$(MAKE) -f CMakeFiles/sieve.dir/build.make CMakeFiles/sieve.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nilsiker/edaf30/lab4/bin/CMakeFiles --progress-num=5,6 "Built target sieve"
+.PHONY : CMakeFiles/sieve.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sieve.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nilsiker/edaf30/lab4/bin/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sieve.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nilsiker/edaf30/lab4/bin/CMakeFiles 0
+.PHONY : CMakeFiles/sieve.dir/rule
+
+# Convenience name for target.
+sieve: CMakeFiles/sieve.dir/rule
+
+.PHONY : sieve
+
+# clean rule for target.
+CMakeFiles/sieve.dir/clean:
+	$(MAKE) -f CMakeFiles/sieve.dir/build.make CMakeFiles/sieve.dir/clean
+.PHONY : CMakeFiles/sieve.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/tag_remover.dir
 
 # All Build rule for target.
 CMakeFiles/tag_remover.dir/all:
 	$(MAKE) -f CMakeFiles/tag_remover.dir/build.make CMakeFiles/tag_remover.dir/depend
 	$(MAKE) -f CMakeFiles/tag_remover.dir/build.make CMakeFiles/tag_remover.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nilsiker/edaf30/lab4/bin/CMakeFiles --progress-num=5,6 "Built target tag_remover"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nilsiker/edaf30/lab4/bin/CMakeFiles --progress-num=7,8 "Built target tag_remover"
 .PHONY : CMakeFiles/tag_remover.dir/all
 
 # Build rule for subdir invocation for target.

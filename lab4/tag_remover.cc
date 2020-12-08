@@ -1,6 +1,5 @@
 #include "tag_remover.h"
 #include <fstream>
-#include <fstream>
 #include <iterator>
 #include <algorithm>
 #include <string>
@@ -39,7 +38,6 @@ TagRemover::TagRemover(std::istream &in)
 {
     std::string all;
     std::getline(in, all, {});
-
 
     // remove all tags
     auto start = find(all.begin(), all.end(), '<');

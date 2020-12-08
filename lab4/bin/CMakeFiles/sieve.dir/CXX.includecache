@@ -6,25 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/nilsiker/edaf30/lab4/tag_remover.cc
-tag_remover.h
-/home/nilsiker/edaf30/lab4/tag_remover.h
-fstream
+/home/nilsiker/edaf30/lab4/sieve.cc
+string
 -
-iterator
+iostream
+-
+istream
+-
+ostream
 -
 algorithm
 -
-string
--
-map
--
+sieve.h
+/home/nilsiker/edaf30/lab4/sieve.h
+
+/home/nilsiker/edaf30/lab4/sieve.h
 vector
 -
-
-/home/nilsiker/edaf30/lab4/tag_remover.h
+string
+-
 iostream
 -
-sstream
+assert.h
 -
 

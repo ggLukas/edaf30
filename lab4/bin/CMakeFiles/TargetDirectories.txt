@@ -1,5 +1,6 @@
 /home/nilsiker/edaf30/lab4/bin/CMakeFiles/rebuild_cache.dir
 /home/nilsiker/edaf30/lab4/bin/CMakeFiles/edit_cache.dir
+/home/nilsiker/edaf30/lab4/bin/CMakeFiles/sieve.dir
 /home/nilsiker/edaf30/lab4/bin/CMakeFiles/tag_remover.dir
 /home/nilsiker/edaf30/lab4/bin/CMakeFiles/date_test.dir
 /home/nilsiker/edaf30/lab4/bin/libs/CMakeFiles/rebuild_cache.dir

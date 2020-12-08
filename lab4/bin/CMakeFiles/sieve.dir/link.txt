@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall -Wextra   CMakeFiles/sieve.dir/sieve.cc.o  -o sieve 
