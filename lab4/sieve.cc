@@ -1,15 +1,8 @@
-#include <string>
-#include <iostream>
-#include <istream>
-#include <ostream>
-#include <algorithm>
 #include "sieve.h"
-
 #define UPPER_BOUND 100000
 
 int main()
 {
-
     Sieve s{35};
     s.test();
     std::cout << "Primes up to 35 =======> ";
@@ -20,7 +13,10 @@ int main()
     std::cout << std::endl;
 
     Sieve s2{UPPER_BOUND};
-    std::cout << "Highest prime less than " << UPPER_BOUND << " =======> " << s2.get_highest_prime() << std::endl;
+    std::cout << "Highest prime less than "
+              << UPPER_BOUND
+              << " =======> " << s2.get_highest_prime()
+              << std::endl;
 }
 
 Sieve::Sieve(size_t nbrs)

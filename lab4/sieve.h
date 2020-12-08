@@ -4,8 +4,8 @@
 #include <vector>
 #include <string>
 #include <iostream>
+#include <algorithm>
 #include <assert.h>
-
 
 class Sieve {
     public:

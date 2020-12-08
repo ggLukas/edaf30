@@ -11,10 +11,6 @@ string
 -
 iostream
 -
-istream
--
-ostream
--
 algorithm
 -
 sieve.h
