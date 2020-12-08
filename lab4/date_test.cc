@@ -3,6 +3,8 @@
 #include "date.h"
 
 using std::cout;
+using std::cin;
+using std::stringstream;
 using std::endl;
 using std::setw;
 using std::setfill;
@@ -13,12 +15,12 @@ using std::setfill;
  *
  */
 void print(const Date& d) {
-	cout << setw(4) << setfill('0') << d.getYear() << '-';
-	cout << setw(2) << setfill('0') << d.getMonth() << '-';
-	cout << setw(2) << setfill('0') << d.getDay();
+	std::cout << setw(4) << setfill('0') << d.getYear() << '-';
+	std::cout << setw(2) << setfill('0') << d.getMonth() << '-';
+	std::cout << setw(2) << setfill('0') << d.getDay();
 }
 
-int main() {
+int main(int argc, char *argv[]) {
 	// Check input and output of dates. Uncomment the following when you 
 	// have added operator>> and operator<<.
 	/*
@@ -40,7 +42,36 @@ int main() {
 		}
 	}
 	*/
-	
+
+	// Check input and output of dates. Uncomment the following when you
+	// have added operator>> and operator<<.
+
+	// stringstream out{};
+	// stringstream in{};
+
+	// bool cont = true;
+	// while (cont)
+	// {
+	// 	cout << "Type a date: ";
+	// 	Date aDate;
+	// 	cin >> aDate;
+	// 	if (cin.eof())
+	// 	{
+	// 		cont = false;
+	// 	}
+	// 	else if (!cin.good())
+	// 	{
+	// 		cout << "Wrong input format" << endl;
+	// 		// restore stream state and ignore the rest of the line
+	// 		cin.clear();
+	// 		cin.ignore(10000, '\n');
+	// 	}
+	// 	else
+	// 	{
+	// 		cout << "Output: " << aDate << endl;
+	// 	}
+	// }
+
 	// Check 'next' by creating an object describing today's date, then
 	// printing dates more than a month ahead
 	cout << "--- Today and more than a month ahead:" << endl;

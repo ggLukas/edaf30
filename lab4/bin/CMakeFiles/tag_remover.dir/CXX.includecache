@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nilsiker/edaf30/lab4/tag_remover.cc
+tag_remover.h
+/home/nilsiker/edaf30/lab4/tag_remover.h
+fstream
+-
+fstream
+-
+iterator
+-
+algorithm
+-
+
+/home/nilsiker/edaf30/lab4/tag_remover.h
+iostream
+-
+sstream
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall -Wextra   CMakeFiles/date_test.dir/date_test.cc.o  -o date_test  libs/libDateLib.a 

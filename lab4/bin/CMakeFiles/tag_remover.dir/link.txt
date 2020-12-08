@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall -Wextra   CMakeFiles/tag_remover.dir/tag_remover.cc.o  -o tag_remover 

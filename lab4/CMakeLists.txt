@@ -16,4 +16,5 @@ add_subdirectory (libs)
 
 # add the executable
  add_executable(date_test date_test.cc)
+ add_executable(tag_remover tag_remover.cc)
 target_link_libraries (date_test DateLib)
