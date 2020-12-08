@@ -17,6 +17,12 @@ iterator
 -
 algorithm
 -
+string
+-
+map
+-
+vector
+-
 
 /home/nilsiker/edaf30/lab4/tag_remover.h
 iostream

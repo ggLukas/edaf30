@@ -13,4 +13,6 @@ private:
     std::stringstream stream;
 };
 
+std::string findReplacement(std::string &code);
+
 #endif
