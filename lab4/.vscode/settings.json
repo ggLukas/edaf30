@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.dae": "xml",
+        "iosfwd": "cpp",
+        "iostream": "cpp"
+    }
+}

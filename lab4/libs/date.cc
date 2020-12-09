@@ -28,3 +28,13 @@ int Date::getDay() const {
 void Date::next() {
 }
 
+
+
+ostream &operator<<(ostream &os, const Date &dt){
+	os << dt.year << '-' << dt.month  << '-' << dt.day;
+	return os;
+}
+istream &operator>>(istream &os, const Date &dt){
+
+
+}
