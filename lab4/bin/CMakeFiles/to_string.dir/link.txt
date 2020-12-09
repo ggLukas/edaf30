@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall -Wextra   CMakeFiles/to_string.dir/to_string.cc.o  -o to_string  libs/libDateLib.a 

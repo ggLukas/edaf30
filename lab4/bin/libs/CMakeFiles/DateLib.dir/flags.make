@@ -6,5 +6,5 @@ CXX_FLAGS = -g -Wall -Wextra   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nilsiker/edaf30/lab4/bin -I/home/nilsiker/edaf30/lab4/libs 
+CXX_INCLUDES = -I/home/ungothar/edaf30/lab4/bin -I/home/ungothar/edaf30/lab4/libs 
 

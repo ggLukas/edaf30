@@ -1,40 +1,45 @@
-#include <ctime>  // time and localtime
+#include <ctime> // time and localtime
+#include <algorithm>
 #include "date.h"
 
 int Date::daysPerMonth[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
-Date::Date() {
-	time_t timer = time(0); // time in seconds since 1970-01-01
-	tm* locTime = localtime(&timer); // broken-down time
+Date::Date()
+{
+	time_t timer = time(0);			 // time in seconds since 1970-01-01
+	tm *locTime = localtime(&timer); // broken-down time
 	year = 1900 + locTime->tm_year;
 	month = 1 + locTime->tm_mon;
 	day = locTime->tm_mday;
 }
 
-Date::Date(int y, int m, int d) {}
+Date::Date(int y, int m, int d) : year{y}, month{m}, day{d} {}
 
-int Date::getYear() const {
-	return 0;
+int Date::getYear() const
+{
+	return year;
 }
 
-int Date::getMonth() const {
-	return 0;
+int Date::getMonth() const
+{
+	return month;
 }
 
-int Date::getDay() const {
-	return 0;
+int Date::getDay() const
+{
+	return day;
 }
 
-void Date::next() {
-}
-
-
-
-ostream &operator<<(ostream &os, const Date &dt){
-	os << dt.year << '-' << dt.month  << '-' << dt.day;
-	return os;
-}
-istream &operator>>(istream &os, const Date &dt){
-
-
+void Date::next()
+{
+	int d = day + 1;
+	if(d > daysPerMonth[month-1]){
+		d = 1;
+		month++;
+		if(month > 12){
+			month=1;
+			year++;
+		}
+	}
+	day = d;
 }

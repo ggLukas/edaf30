@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nilsiker/edaf30/lab4/libs/date.cc" "/home/nilsiker/edaf30/lab4/bin/libs/CMakeFiles/DateLib.dir/date.cc.o"
+  "/home/ungothar/edaf30/lab4/libs/date.cc" "/home/ungothar/edaf30/lab4/bin/libs/CMakeFiles/DateLib.dir/date.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

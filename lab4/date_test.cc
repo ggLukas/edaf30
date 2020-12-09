@@ -1,47 +1,48 @@
 #include <iostream>
 #include <iomanip> // for setw and setfill
 #include "date.h"
+#include <sstream>
 
-using std::cout;
 using std::cin;
-using std::stringstream;
+using std::cout;
 using std::endl;
-using std::setw;
 using std::setfill;
+using std::setw;
+using std::stringstream;
 
 /*
  * Prints the date d in the format yyyy-mm-dd. You shall replace this
  * function with an overloaded operator<<, and add an overloaded operator>>.
  *
  */
-void print(const Date& d) {
+void print(const Date &d)
+{
 	std::cout << setw(4) << setfill('0') << d.getYear() << '-';
 	std::cout << setw(2) << setfill('0') << d.getMonth() << '-';
 	std::cout << setw(2) << setfill('0') << d.getDay();
 }
 
-int main(int argc, char *argv[]) {
-	// Check input and output of dates. Uncomment the following when you 
+int main(int argc, char *argv[])
+{
+	// Check input and output of dates. Uncomment the following when you
 	// have added operator>> and operator<<.
-	/*
-	bool cont = true;
-	while (cont) {
-		cout << "Type a date: ";
-		Date aDate;
-		cin >> aDate;
-		if (cin.eof()) {
-			cont = false;
-		} else if (!cin.good()) {
-			cout << "Wrong input format" << endl;
-			// restore stream state and ignore the rest of the line
-			cin.clear();
-			cin.ignore(10000, '\n');
-		}
-		else {
-			cout << "Output: " << aDate << endl;
-		}
-	}
-	*/
+	// bool cont = true;
+	// while (cont) {
+	// 	cout << "Type a date: ";
+	// 	Date aDate;
+	// 	cin >> aDate;
+	// 	if (cin.eof()) {
+	// 		cont = false;
+	// 	} else if (!cin.good()) {
+	// 		cout << "Wrong input format" << endl;
+	// 		// restore stream state and ignore the rest of the line
+	// 		cin.clear();
+	// 		cin.ignore(10000, '\n');
+	// 	}
+	// 	else {
+	// 		cout << "Output: " << aDate << endl;
+	// 	}
+	// }
 
 	// Check input and output of dates. Uncomment the following when you
 	// have added operator>> and operator<<.
@@ -78,12 +79,13 @@ int main(int argc, char *argv[]) {
 	Date d1;
 	print(d1);
 	cout << endl;
-	for (int i = 1; i <= 35 ; ++i) {
+	for (int i = 1; i <= 35; ++i)
+	{
 		d1.next();
 		print(d1);
 		cout << endl;
 	}
-	
+
 	// Check so 'next' functions correctly from one year to the next
 	cout << "--- New Year's Eve and the next day:" << endl;
 	Date d2(2013, 12, 31);
@@ -93,3 +95,4 @@ int main(int argc, char *argv[]) {
 	print(d2);
 	cout << endl;
 }
+

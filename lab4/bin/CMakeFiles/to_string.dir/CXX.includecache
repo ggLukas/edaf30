@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/ungothar/edaf30/lab4/sieve.cc
-sieve.h
-/home/ungothar/edaf30/lab4/sieve.h
-
-/home/ungothar/edaf30/lab4/sieve.h
-vector
--
-string
--
+../libs/date.h
 iostream
 -
-algorithm
+
+/home/ungothar/edaf30/lab4/to_string.cc
+date.h
+/home/ungothar/edaf30/lab4/date.h
+iostream
 -
-assert.h
+sstream
 -
 

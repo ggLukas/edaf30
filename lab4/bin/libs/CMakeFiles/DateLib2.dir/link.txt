@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDateLib2.a  CMakeFiles/DateLib2.dir/date.cc.o
+/usr/bin/ranlib libDateLib2.a
