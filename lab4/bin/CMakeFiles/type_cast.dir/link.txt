@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall -Wextra   CMakeFiles/type_cast.dir/type_cast.cc.o  -o type_cast  libs/libDateLib.a 
