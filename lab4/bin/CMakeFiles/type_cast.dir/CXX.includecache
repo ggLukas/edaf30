@@ -15,6 +15,10 @@ date.h
 /home/ungothar/edaf30/lab4/date.h
 iostream
 -
+ostream
+-
 sstream
+-
+stdexcept
 -
 

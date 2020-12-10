@@ -39,10 +39,6 @@ public:
 			dt.month = m;
 			dt.day = d;
 		}
-		else
-		{
-			is.clear();
-		}
 		return is;
 	}
 
